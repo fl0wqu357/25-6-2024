@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid red;
+}
+
+h1{
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+    padding: 10px;
+}
+
+.caja{
+    display: inline-block;
+    font-size: 30px;
+    /* border: 10px solid red; */
+    height: 200px;
+    width: 250px;
+
+    text-align: center;
+    padding: 50px;
+    margin: 50px;
+}
+
+#none{
+    border: none;
+}
+
+#dotted{
+    border: 10px dotted rgb(202, 170, 170);
+}
+
+#dashed{
+    border: 10px dashed rgb(202, 170, 170);
+}
+
+#solid{
+    border: 10px solid rgb(202, 170, 170);
+}
+
+#double{
+    border: 10px double rgb(202, 170, 170);
+}
+
+#groove{
+    border: 10px groove rgb(202, 170, 170);
+}
+
+#ridge{
+    border: 10px ridge rgb(202, 170, 170);
+}
+
+#inset{
+    border: 10px inset rgb(202, 170, 170);
+}
+
+#outset{
+    border: 10px rgb(202, 170, 170);
+}
